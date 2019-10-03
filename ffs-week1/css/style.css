@@ -1,0 +1,60 @@
+/* this is how you comment in css */
+/* list item  */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* button elements */
+li a:hover {
+  background-color: #111;
+}
+
+.btn {
+  display: inline-block;
+  margin-bottom: 30px;
+  padding: 30px;
+  border: 0;
+  text-align: center;
+  background-color: silver;
+  color: #fff;
+  text-transform: Uppercase;
+  font-weight: thin;
+  letter-spacing: 0.5em;
+}
+
+.btn--fixed {
+  width: 150px;
+}
+
+.btn--featured {
+  background-color: tomato;
+}
+
+.btn--success {
+  background-color: #bada55;
+}
+
+.btn--aj {
+  backround-color: magenta;
+  letter-spacing: .1em;
+}
+
+.is-opacity {
+  opacity: .5;
+}
