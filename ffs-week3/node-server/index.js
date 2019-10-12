@@ -14,8 +14,15 @@ server.set('view engine', 'pug');
 server.use('/', router);
 server.use(express.static(__dirname +'/public'))
 
-server.get('/', function (req, res) {
-  res.render('index', { title: 'Hey', message: 'Hello there!' })
+server.get('/index', function (req, res) {
+  res.render('/index', { title: 'Hey', message: 'Hello there!' })
+})
+
+server.get('/bootstrap', function (req, res) {
+  res.render('/bootstrap', { title: 'Hey', message: 'Hello there!' })
+})
+server.get('/material', function (req, res) {
+  res.render('/material', { title: 'Hey', message: 'Hello there!' })
 })
 server.post('/', function(req, res){
   console.log(req);
