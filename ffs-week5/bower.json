@@ -1,0 +1,14 @@
+{
+  "name": "ffs-week5",
+  "description": "",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "https://github.com/AJtwiss01/future-frontend-UCSD",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
