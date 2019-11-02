@@ -1,0 +1,34 @@
+.parentBlock {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+}
+.fontFamily {
+  font-size: 18px;
+  color: grey;
+  font-family: lato;
+}
+.parentBlock {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+}
+.header-less {
+  width: 100%;
+  display: flex;
+}
+.header-less .wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+}
+.header-less .wrapper .flex-h1 {
+  color: #ea80fc;
+  font-size: 5em;
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+}
